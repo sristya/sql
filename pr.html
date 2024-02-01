@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+     <meta name="utf-8">
+     <meta charset="width=device-width,initial scale=1.0">
+     
+       <style>
+       
+       </style>
+    </head>
+  <body>
+    <button>click</button>
+    <script>
+    var btn=document.getElementsByTagName("button");
+    btn[0].addEventListener("click",hello);
+
+
+    function hello(){
+      for(i=1;i<=10;i++){
+        var a=document.createElement("h1");
+
+      a.innerText=i;
+
+      document.body.appendChild(a)
+    }
+      }
+    
+    
+    
+     
+
+    
+   
+    </script>
+  </body>
+
+
+</html>
