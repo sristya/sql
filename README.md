@@ -1,2 +1,2 @@
-# sql
-resume.sql
+# js
+resume.js
